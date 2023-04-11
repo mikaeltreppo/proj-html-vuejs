@@ -7,5 +7,13 @@
      --seaGreen: rgb(32, 173, 150);
      --blueWrite:rgb(63, 58, 100);
      --bgGray:rgb(248, 248, 248);
-     
+
+}
+.mainContainer{
+  width: 80%;
+  margin: auto;
+}
+.d-flex{
+  display: flex;
+  
 }

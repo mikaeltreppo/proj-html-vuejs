@@ -17,20 +17,16 @@ export default{
 
 <template>
 
-<div class="mainContainer">
+
 
  <MyHeader/>
  <MyMain/>
  <MyFooter/>
 
-</div>
 
 </template>
 
 <style>
-.mainContainer{
-  width: 80%;
-  margin: auto;
 
-}
+
 </style>

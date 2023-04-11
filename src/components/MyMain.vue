@@ -1,18 +1,20 @@
 <template>
-    <div class="mainCoursesPart">
-        <h1>main courses part</h1>
-    </div>
-    <div class="mainTutoringPart">
-        <h1>main tutoring part</h1>
-    </div>
-    <div class="mainFeedbackPart">
-        <h1>main feedback part</h1>
-    </div>
-    <div class="mainStatisticPart">
-        <h1>main statistic part</h1>
-    </div>
-    <div class="mainBlogPart">
-        <h1>main blog part</h1>
+    <div class="mainContainer">
+        <div class="mainCoursesPart">
+            <h1>main courses part</h1>
+        </div>
+        <div class="mainTutoringPart">
+            <h1>main tutoring part</h1>
+        </div>
+        <div class="mainFeedbackPart">
+            <h1>main feedback part</h1>
+        </div>
+        <div class="mainStatisticPart">
+            <h1>main statistic part</h1>
+        </div>
+        <div class="mainBlogPart">
+            <h1>main blog part</h1>
+        </div>
     </div>
 </template>
 
@@ -42,4 +44,5 @@
 .mainBlogPart {
     height: 300px;
     background-color: rgb(165, 188, 124);
-}</style>
+}
+</style>

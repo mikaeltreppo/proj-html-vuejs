@@ -1,9 +1,11 @@
 <template>
-    <div class="footerTop">
-        <h1>footer top</h1>
-    </div>
-    <div class="footerBottom">
-        <h1>footer bottom</h1>
+    <div class="mainContainer">
+        <div class="footerTop">
+            <h1>footer top</h1>
+        </div>
+        <div class="footerBottom">
+            <h1>footer bottom</h1>
+        </div>
     </div>
 </template>
 <script></script>
