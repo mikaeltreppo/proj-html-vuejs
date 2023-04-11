@@ -10,10 +10,25 @@
 
 }
 .mainContainer{
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
+/*flex proprieties*/
 .d-flex{
   display: flex;
-  
+}
+.s-b{
+  justify-content: space-between;
+}
+.a-c{
+  align-items: center;
+}
+.d-column{
+  flex-direction: column;
+}
+.green{
+  color: var(--seaGreen);
+}
+.txt-center{
+  text-align: center;
 }
