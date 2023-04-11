@@ -7,6 +7,7 @@
      --seaGreen: rgb(32, 173, 150);
      --blueWrite:rgb(63, 58, 100);
      --bgGray:rgb(248, 248, 248);
+     --bgDeepGray: rgb(245, 247, 250)
 
 }
 .mainContainer{
@@ -20,8 +21,14 @@
 .s-b{
   justify-content: space-between;
 }
+.j-c{
+  justify-content: center;
+}
 .a-c{
   align-items: center;
+}
+.wrap{
+  flex-wrap: wrap;
 }
 .d-column{
   flex-direction: column;
