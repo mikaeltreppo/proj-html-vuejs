@@ -130,10 +130,15 @@
 .headerTop {
     padding: 10px 15%;
     border-bottom: 2px solid rgb(244, 244, 244);
+    position: fixed;
+    z-index: 9999999;
+    width: 100%;
+    background-color: white;
 }
 
 .headerBottom {
     padding: 30px 0;
+    padding-top: 70px ;
 
 }
 
