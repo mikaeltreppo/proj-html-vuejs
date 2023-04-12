@@ -1,106 +1,155 @@
 <template>
     <div class="totalContainerCourses">
-    <div class="mainContainer">
-        <div class="mainCoursesPart">
-            <div class="intro d-flex d-column a-c j-c">
-                <span>STIMULATED TO LEARN?</span>
-                <h2>Featured Online Courses</h2>
+        <div class="mainContainer">
+            <!-------------------------------Main courses part--------------------------------->
+            <div class="mainCoursesPart">
+                <div class="intro d-flex d-column a-c j-c">
+                    <span>STIMULATED TO LEARN?</span>
+                    <h2>Featured Online Courses</h2>
+                </div>
+                <div class="cardCourses d-flex wrap">
+                    <!--course card-->
+                    <div class="course d-flex">
+                        <div class="courseLeft">
+                            <img class="courseImg" src="../assets/course-02-480x298.jpg" alt="">
+                        </div>
+                        <div class="courseRight d-flex d-column a-c j-c">
+                            <h3 class="price green">£40</h3>
+                            <span>Learning to Write as a Professional
+                                Author</span>
+                            <span>20 lessons</span>
+                            <span>50 students</span>
+                        </div>
+                    </div>
+
+                    <div class="course d-flex">
+                        <div class="courseLeft">
+                            <img class="courseImg" src="../assets/stock-full-hd-03-480x298.jpg" alt="">
+                        </div>
+                        <div class="courseRight d-flex d-column a-c j-c">
+                            <h3 class="price green">£40</h3>
+                            <span>Learning to Write as a Professional
+                                Author</span>
+                            <span>20 lessons</span>
+                            <span>50 students</span>
+                        </div>
+                    </div>
+
+                    <div class="course d-flex">
+                        <div class="courseLeft">
+                            <img class="courseImg" src="../assets/stock-full-hd-04-480x298.jpg" alt="">
+                        </div>
+                        <div class="courseRight d-flex d-column a-c j-c">
+                            <h3 class="price green">£40</h3>
+                            <span>Learning to Write as a Professional
+                                Author</span>
+                            <span>20 lessons</span>
+                            <span>50 students</span>
+                        </div>
+                    </div>
+
+                    <div class="course d-flex">
+                        <div class="courseLeft">
+                            <img class="courseImg" src="../assets/stock-full-hd-06-480x298.jpg" alt="">
+                        </div>
+                        <div class="courseRight d-flex d-column a-c j-c">
+                            <h3 class="price green">£40</h3>
+                            <span>Learning to Write as a Professional
+                                Author</span>
+                            <span>20 lessons</span>
+                            <span>50 students</span>
+                        </div>
+                    </div>
+
+                    <div class="course d-flex">
+                        <div class="courseLeft">
+                            <img class="courseImg" src="../assets/course-featured-image-01-480x298.jpg" alt="">
+                        </div>
+                        <div class="courseRight d-flex d-column a-c j-c">
+                            <h3 class="price green">£40</h3>
+                            <span>Learning to Write as a Professional
+                                Author</span>
+                            <span>20 lessons</span>
+                            <span>50 students</span>
+                        </div>
+                    </div>
+
+                    <div class="course d-flex">
+                        <div class="courseLeft">
+                            <img class="courseImg" src="../assets/stock-full-hd-05-480x298.jpg" alt="">
+                        </div>
+                        <div class="courseRight d-flex d-column a-c j-c">
+                            <h3 class="price green">£40</h3>
+                            <span>Learning to Write as a Professional
+                                Author</span>
+                            <span>20 lessons</span>
+                            <span>50 students</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="cardCourses d-flex wrap">
-                <!--course card-->
-                <div class="course d-flex">
-                    <div class="courseLeft">
-                        <img class="courseImg" src="../assets/course-02-480x298.jpg" alt="">
+            <div class="d-flex j-c a-c"> <button class="buttonCourses">View all courses</button></div>
+        </div>
+     </div>
+        <!-------------------------------Main tutoring part--------------------------------->
+        <div class="mainContainer">
+            <div class="mainTutoringPart">
+                <div class="intro d-flex d-column a-c j-c">
+                    <span>MAX COACH AVAILABLE COURSES</span>
+                    <h2>Access Smart Tutoring Program For Benefits.</h2>
+                </div>
+           
+                <!--cards tutoring-->
+                <div class="cardContainer d-flex ">
+                    <div class="cardTutoring d-flex d-column a-s">
+                        <img src="../assets/home-2-image-box-01.png" alt="">
+                        <h3>Customize Preferencies</h3>
+                        <span>are given right to arrange ana
+                            their study</span>
+                        <span> start here <i class="fa-solid fa-arrow-right fa-xs"></i> </span>
                     </div>
-                    <div class="courseRight d-flex d-column a-c j-c">
-                        <h3 class="price green">£40</h3>
-                        <span>Learning to Write as a Professional
-                            Author</span>
-                        <span>20 lessons</span>
-                        <span>50 students</span>
+                    <div class="cardTutoring d-flex d-column a-s">
+                        <img src="../assets/about-us-02-image-box-02.png" alt="">
+                        <h3>Customize Preferencies</h3>
+                        <span>are given right to arrange ana
+                            their study</span>
+                        <span> start here <i class="fa-solid fa-arrow-right fa-xs"></i> </span>
+                    </div>
+                    <div class="cardTutoring d-flex d-column a-s">
+                        <img src="../assets/home-2-image-box-03.png" alt="">
+                        <h3>Customize Preferencies</h3>
+                        <span>are given right to arrange ana
+                            their study</span>
+                        <span> start here <i class="fa-solid fa-arrow-right fa-xs"></i> </span>
                     </div>
                 </div>
 
-                <div class="course d-flex">
-                    <div class="courseLeft">
-                        <img class="courseImg" src="../assets/course-02-480x298.jpg" alt="">
+                <!--video part tutoring-->
+
+                <div class="videoTutoringContainer d-flex">
+                    <div class="video relative">
+                        <img class="mainImg" src="../assets/home-2-popup-video-poster.jpg" alt="">
+                        <img class="draw absolute" src="../assets/maxcoach-shape-07.png" alt="">
+
                     </div>
-                    <div class="courseRight d-flex d-column a-c j-c">
-                        <h3 class="price green">£40</h3>
-                        <span>Learning to Write as a Professional
-                            Author</span>
-                        <span>20 lessons</span>
-                        <span>50 students</span>
-                    </div>
+                    <div class="videoText"></div>
                 </div>
 
-                <div class="course d-flex">
-                    <div class="courseLeft">
-                        <img class="courseImg" src="../assets/course-02-480x298.jpg" alt="">
-                    </div>
-                    <div class="courseRight d-flex d-column a-c j-c">
-                        <h3 class="price green">£40</h3>
-                        <span>Learning to Write as a Professional
-                            Author</span>
-                        <span>20 lessons</span>
-                        <span>50 students</span>
-                    </div>
-                </div>
-
-                <div class="course d-flex">
-                    <div class="courseLeft">
-                        <img class="courseImg" src="../assets/course-02-480x298.jpg" alt="">
-                    </div>
-                    <div class="courseRight d-flex d-column a-c j-c">
-                        <h3 class="price green">£40</h3>
-                        <span>Learning to Write as a Professional
-                            Author</span>
-                        <span>20 lessons</span>
-                        <span>50 students</span>
-                    </div>
-                </div>
-
-                <div class="course d-flex">
-                    <div class="courseLeft">
-                        <img class="courseImg" src="../assets/course-02-480x298.jpg" alt="">
-                    </div>
-                    <div class="courseRight d-flex d-column a-c j-c">
-                        <h3 class="price green">£40</h3>
-                        <span>Learning to Write as a Professional
-                            Author</span>
-                        <span>20 lessons</span>
-                        <span>50 students</span>
-                    </div>
-                </div>
-
-                <div class="course d-flex">
-                    <div class="courseLeft">
-                        <img class="courseImg" src="../assets/course-02-480x298.jpg" alt="">
-                    </div>
-                    <div class="courseRight d-flex d-column a-c j-c">
-                        <h3 class="price green">£40</h3>
-                        <span>Learning to Write as a Professional
-                            Author</span>
-                        <span>20 lessons</span>
-                        <span>50 students</span>
-                    </div>
-                </div>
             </div>
         </div>
-        </div>
-        <div class="mainTutoringPart">
-            <h1>main tutoring part</h1>
-        </div>
+        <!-------------------------------Main feedback part--------------------------------->
         <div class="mainFeedbackPart">
             <h1>main feedback part</h1>
         </div>
+        <!-------------------------------Main statistic part--------------------------------->
         <div class="mainStatisticPart">
             <h1>main statistic part</h1>
         </div>
+        <!-------------------------------Main blog part--------------------------------->
         <div class="mainBlogPart">
             <h1>main blog part</h1>
         </div>
-    </div>
+    
 </template>
 
 <script>
@@ -108,18 +157,49 @@
 </script>
 
 <style scoped>
-.mainContainer{
+.draw {
+    width: 150px;
+    bottom: 30px;
+    right: -31px;
+}
+
+.video{
+    padding: 100px 0;
+    width: 60%;
+}
+.video .mainImg {
+    position: relative;
+    z-index: 99;
+    width: 500px;
+    border-radius: 5px;
+    
+}
+
+.cardTutoring {
+    width: calc(100% / 3);
+    padding: 30px 30px 30px 0;
+}
+
+.cardTutoring img {
+    height: 100px;
+    width: 130px;
+}
+
+.mainContainer {
     padding: 30px 0;
 }
-.totalContainerCourses{
+
+.totalContainerCourses {
     background-color: var(--bgDeepGray);
 }
+
 /*setup card*/
 
-.course{
+.course {
     width: calc(100% / 2);
     padding: 15px;
 }
+
 .courseImg {
     display: inline;
     margin: 0 auto;
@@ -134,13 +214,6 @@
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-}
-
-
-
-.mainTutoringPart {
-    height: 450px;
-    background-color: rgb(169, 196, 130);
 }
 
 .mainFeedbackPart {

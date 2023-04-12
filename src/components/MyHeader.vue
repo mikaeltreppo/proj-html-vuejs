@@ -43,7 +43,7 @@
                 <div class="heroRigth d-flex">
                     <img class="bgImg one" src="../assets/maxcoach-shape-08.png" alt="">
                     <img class="bgImg two" src="../assets/maxcoach-shape-08.png" alt="">
-                    <img class="bgImg three" src="../assets/maxcoach-shape-07-150x150.png" alt="">ù
+                    <img class="bgImg three" src="../assets/maxcoach-shape-07-150x150.png" alt="">
                     <img class="bgImg four" src="../assets/maxcoach-shape-02.png" alt="">
                     <img class="aboutMeImg" src="../assets/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
                         alt="">

@@ -27,6 +27,9 @@
 .a-c{
   align-items: center;
 }
+.a-s{
+  align-items: flex-start;
+}
 .wrap{
   flex-wrap: wrap;
 }
@@ -38,4 +41,10 @@
 }
 .txt-center{
   text-align: center;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
 }
