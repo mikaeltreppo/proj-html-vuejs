@@ -147,13 +147,13 @@
                     <img class="roundDraw absolute" src="../assets/maxcoach-shape-05.png">
                 </div>
                 <div class="videoText">
-                    <div class="heroLeft d-flex d-column">
-                        <h2>Distant learning for
-                            further expansion</h2>
-                        <p>Learning is a life-long journey that in fact we never find
-                            the terminate stop. Stop searching, enjoy the</p>
-                        <span class="">
-                            Have questions? <a class="green" href="#"> Get Free Sample <i
+                    <div class="videoLeft d-flex d-column">
+                        <div class="textGray mb10">GET STARTED <span class="textBlue">EFFORTLESLY</span> </div>
+                        <h2 class="mb10">Enjoy Our <span class="green"> Companionship</span></h2>
+                        <p class="mb20">Sn«'k into what in store for pu Our
+                            and for
+                            sorne hidc:En Fints of earty- bird rev.urds as wel</p>
+                        <span class=""> <a class="green" href="#"> Download the guidebook <i
                                     class="fa-solid fa-arrow-right fa-xs"></i> </a>
                         </span>
                     </div>
@@ -200,7 +200,7 @@
 
 .videoText {
     width: 40%;
-    padding: 100px 50px;
+    padding: 150px 50px;
 }
 
 .video {

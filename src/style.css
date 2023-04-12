@@ -70,3 +70,12 @@ a{
 .mb10{
   margin-bottom: 10px;
 }
+.bold{
+  font-weight: bold;
+}
+.fs12{
+  font-size: 12px;
+}
+.opacity{
+  filter: opacity(0.3);
+}

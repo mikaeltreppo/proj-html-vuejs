@@ -1,11 +1,11 @@
 <template>
-    <div class="headerTop d-flex s-b">
+    <div class="headerTop d-flex s-b ">
         <!--parte sinistra header top-->
         <div class="leftPartTopHeader">
             <img class="logo" src="../assets/dark-logo.png" alt="">
         </div>
         <!--parte destra header top-->
-        <div class="rigthPartHeaderTop d-flex">
+        <div class="rigthPartHeaderTop d-flex a-c">
             <ul class="listTopHeader d-flex">
                 <li> Home <i class="fa-solid fa-chevron-down"></i></li>
                 <li>Pages <i class="fa-solid fa-chevron-down"></i></li>
