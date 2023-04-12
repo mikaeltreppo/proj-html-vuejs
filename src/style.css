@@ -30,6 +30,9 @@
 .a-s{
   align-items: flex-start;
 }
+.j-s{
+  justify-content: flex-start;
+}
 .wrap{
   flex-wrap: wrap;
 }
@@ -60,4 +63,10 @@
 a{
   text-decoration: none;
   color: inherit;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.mb10{
+  margin-bottom: 10px;
 }

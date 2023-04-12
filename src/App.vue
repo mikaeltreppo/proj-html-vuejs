@@ -1,13 +1,15 @@
 <script>
 
 import MyHeader from './components/MyHeader.vue'
-import MyMain from './components/MyMain.vue'
+import MyMainTop from './components/MyMainTop.vue'
+import MyMainBottom from './components/MyMainBottom.vue'
 import MyFooter from './components/MyFooter.vue'
 
 export default{
   components:{
     MyHeader,
-    MyMain,
+    MyMainTop,
+    MyMainBottom,
     MyFooter
 
   }
@@ -20,7 +22,8 @@ export default{
 
 
  <MyHeader/>
- <MyMain/>
+ <MyMainTop/>
+ <MyMainBottom/>
  <MyFooter/>
 
 
