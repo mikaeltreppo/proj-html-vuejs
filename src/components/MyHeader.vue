@@ -27,14 +27,14 @@
             <div class="hero d-flex">
                 <!--header left-->
                 <div class="heroLeft d-flex d-column">
-                    <h2>Distant learning for
-                        further expansion</h2>
-                    <p>Learning is a life-long journey that in fact we never find
+                    <h1 class="textBlue">Distant learning for
+                        further expansion</h1>
+                    <p class="textGray">Learning is a life-long journey that in fact we never find
                         the terminate stop. Stop searching, enjoy the</p>
-                    <button>
-                        Download the free guide
-                    </button>
-                    <span class="">
+                    <button class="buttonHeader bgGreen">
+                      <a href="#"><i class="fa-solid fa-download"></i>   Download the free guide</a>  
+                    </button >
+                    <span class="textGray">
                         Have questions? <a class="green" href="#"> Get Free Sample <i
                                 class="fa-solid fa-arrow-right fa-xs"></i> </a>
                     </span>
@@ -64,6 +64,16 @@
 <script></script>
 
 <style>
+.heroLeft h1, .heroLeft span{
+    margin-bottom: 20px;
+}
+.buttonHeader{
+    width: 200px;
+    margin:20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
 .bgImg.one {
     position: absolute;
     top: 115px;
@@ -159,4 +169,5 @@
 
 input {
     margin-left: 20px;
-}</style>
+}
+</style>
