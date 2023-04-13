@@ -16,12 +16,12 @@
         <div class="mainContainer">
             <div class="footerBottom d-flex">
                 <div class="columnFooter">
-                    <span> {{ titleone }}</span>
+                    <span class="mb10"> {{ titleone }}</span>
                     <ul>
-                        <li class="textGray sm">382 NE 191st St # 87394 Miami, FL 33179-3899</li>
-                        <li class="textGray sm">+1 (305) 547-9909 (9am - sprn EST. Monday - Friday)</li>
-                        <li class="mb20 textGray sm">support@rnaxcoachcorn</li>
-                        <li class="textGray sm"><i class="fa-brands fa-instagram"></i><i
+                        <li class="textGray sm mb10">382 NE 191st St # 87394 Miami, FL 33179-3899</li>
+                        <li class="textGray sm mb10">+1 (305) 547-9909 (9am - sprn EST. Monday - Friday)</li>
+                        <li class="mb20 textGray mb10 sm">support@rnaxcoachcorn</li>
+                        <li class="textGray sm mb10"><i class="fa-brands fa-instagram"></i><i
                                 class="fa-brands fa-facebook"></i><i class="fa-brands fa-pinterest"></i><i
                                 class="fa-brands fa-youtube"></i></li>
                     </ul>
@@ -29,28 +29,28 @@
                 <div class="columnFooter d-flex">
                     <div class="miniColumnFooter">{{ titletwo }}
                         <ul>
-                            <li class="textGray sm">Start Here</li>
-                            <li class="textGray sm">Blog us</li>
-                            <li class="textGray sm">About us</li>
+                            <li class="textGray sm mb10">Start Here</li>
+                            <li class="textGray sm mb10">Blog us</li>
+                            <li class="textGray sm mb10">About us</li>
                         </ul>
                     </div>
                     <div class="miniColumnFooter">
                         <span class="trsp">titolotrasparente</span>
                         <ul>
-                            <li class="textGray sm">succes story</li>
-                            <li class="textGray sm">Courses</li>
-                            <li class="textGray sm">contact us</li>
+                            <li class="textGray sm mb10">succes story</li>
+                            <li class="textGray sm mb10">Courses</li>
+                            <li class="textGray sm mb10">contact us</li>
                         </ul>
 
                     </div>
                     <div class="miniColumnFooter">{{ titlethree }}
                         <ul>
-                            <li class="textGray sm">Membership</li>
-                            <li class="textGray sm">Purchase guide</li>
-                            <li class="textGray sm">Pricacy policy</li>
-                            <li class="textGray sm">Terms of service</li>
+                            <li class="textGray sm mb10">Membership</li>
+                            <li class="textGray sm mb10">Purchase guide</li>
+                            <li class="textGray sm mb10">Pricacy policy</li>
+                            <li class="textGray sm mb10">Terms of service</li>
                         </ul>
-                    </div>
+                    </div>         
                 </div>
             </div>
 
@@ -72,6 +72,7 @@ export default {
 
 </script>
 <style>
+
 .imgFootone {
     top: 74px;
   right: -19px;
