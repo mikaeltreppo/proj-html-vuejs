@@ -7,12 +7,12 @@
         <!--parte destra header top-->
         <div class="rigthPartHeaderTop d-flex a-c">
             <ul class="listTopHeader d-flex">
-                <li> Home <i class="fa-solid fa-chevron-down"></i></li>
-                <li>Pages <i class="fa-solid fa-chevron-down"></i></li>
-                <li>Courses <i class="fa-solid fa-chevron-down"></i></li>
-                <li>Features <i class="fa-solid fa-chevron-down"></i></li>
-                <li>Blog <i class="fa-solid fa-chevron-down"></i></li>
-                <li>Shop <i class="fa-solid fa-chevron-down"></i></li>
+                <li> {{ home }} <i class="fa-solid fa-chevron-down"></i></li>
+                <li>{{ page }} <i class="fa-solid fa-chevron-down"></i></li>
+                <li>{{ courses }} <i class="fa-solid fa-chevron-down"></i></li>
+                <li>{{ features }} <i class="fa-solid fa-chevron-down"></i></li>
+                <li>{{ blog }} <i class="fa-solid fa-chevron-down"></i></li>
+                <li>{{ shop }} <i class="fa-solid fa-chevron-down"></i></li>
             </ul>
             <!--profile button-->
             <i class="fa-regular fa-circle-user"></i>
@@ -32,8 +32,8 @@
                     <p class="textGray">Learning is a life-long journey that in fact we never find
                         the terminate stop. Stop searching, enjoy the</p>
                     <button class="buttonHeader bgGreen">
-                      <a href="#"><i class="fa-solid fa-download"></i>   Download the free guide</a>  
-                    </button >
+                        <a href="#"><i class="fa-solid fa-download"></i> Download the free guide</a>
+                    </button>
                     <span class="textGray">
                         Have questions? <a class="green" href="#"> Get Free Sample <i
                                 class="fa-solid fa-arrow-right fa-xs"></i> </a>
@@ -61,19 +61,36 @@
     </div>
 </template>
 
-<script></script>
+<script>
+export default {
+    name: 'MyHeader',
+    props: {
+        home: String,
+        page: String,
+        courses: String,
+        features: String,
+        blog: String,
+        shop: String
+
+    }
+
+}
+</script>
 
 <style>
-.heroLeft h1, .heroLeft span{
+.heroLeft h1,
+.heroLeft span {
     margin-bottom: 20px;
 }
-.buttonHeader{
+
+.buttonHeader {
     width: 200px;
-    margin:20px auto;
+    margin: 20px auto;
     padding: 10px;
     border-radius: 5px;
     color: white;
 }
+
 .bgImg.one {
     position: absolute;
     top: 115px;
@@ -148,7 +165,7 @@
 
 .headerBottom {
     padding: 30px 0;
-    padding-top: 70px ;
+    padding-top: 70px;
 
 }
 
@@ -169,5 +186,5 @@
 
 input {
     margin-left: 20px;
-}
-</style>
+
+}</style>

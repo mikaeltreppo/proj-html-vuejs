@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 :root {
      --seaGreen: rgb(32, 173, 150);
@@ -78,4 +79,10 @@ a{
 }
 .opacity{
   filter: opacity(0.3);
+}
+.sm{
+  font-size: 12px;
+}
+.trsp{
+  color: transparent;
 }
