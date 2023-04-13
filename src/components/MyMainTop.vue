@@ -14,7 +14,7 @@
                             <img class="courseImg" src="../assets/course-02-480x298.jpg" alt="">
                         </div>
                         <div class="courseRight d-flex d-column a-s j-c">
-                            <h3 class="price green mb10">£40.00</h3>
+                            <h3 class="price green mb10">$40.00</h3>
                             <span class=" mb10">Learning to Write as a Professional
                                 Author</span>
                             <div class="info d-flex j-between">
@@ -29,7 +29,7 @@
                             <img class="courseImg" src="../assets/stock-full-hd-03-480x298.jpg" alt="">
                         </div>
                         <div class="courseRight d-flex d-column a-s j-c">
-                            <h3 class="price green mb10">£19.00</h3>
+                            <h3 class="price green mb10">$19.00</h3>
                             <span class="mb10">Customer-centric Info-Tech
                                 Strategies</span>
                             <div class="info d-flex j-between">
@@ -59,7 +59,7 @@
                             <img class="courseImg" src="../assets/stock-full-hd-06-480x298.jpg" alt="">
                         </div>
                         <div class="courseRight d-flex d-column a-s j-c">
-                            <h3 class="price green mb10">£26.00</h3>
+                            <h3 class="price green mb10">$26.00</h3>
                             <span class="mb10">Academic Listening and Note—
                                 taking</span>
                             <div class="info d-flex j-between">
@@ -74,7 +74,7 @@
                             <img class="courseImg" src="../assets/course-featured-image-01-480x298.jpg" alt="">
                         </div>
                         <div class="courseRight d-flex d-column a-s j-c">
-                            <h3 class="price green mb10">£59.00</h3>
+                            <h3 class="price green mb10">$59.00</h3>
                             <span class="mb10">Master jQuery in a Short Period of
                                 Time</span>
                             <div class="info d-flex j-between">
@@ -89,7 +89,7 @@
                             <img class="courseImg" src="../assets/stock-full-hd-05-480x298.jpg" alt="">
                         </div>
                         <div class="courseRight d-flex d-column a-s j-c">
-                            <h3 class="price green mb10">£29.00</h3>
+                            <h3 class="price green mb10">$29.00</h3>
                             <span class="mb10">Introduction to Javascript for
                                 Beginners</span>
                             <div class="info d-flex j-between">

@@ -10,7 +10,7 @@
                 <p class="tetxBlue mb20"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam recusandae
                     quidem, odio vel officiis itaque illo atque quibusdam</p>
                 <div class="lowerFeed d-flex">
-                    <img class="testimonial" src="../assets/testimonial-avata-03.jpg" alt="">
+                    <img class="testimonial" src="../assets/testimonial-avata-02.jpg" alt="">
                     <div class="d-flex d-column mb20">
                         <div class="textBlue mb10">Flhorence Themes</div>
                         <span class="textGray fs12"> / Multimedia Admin</span>
@@ -38,7 +38,7 @@
                 <p class="tetxBlue mb20"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam recusandae
                     quidem, odio vel officiis itaque illo atque quibusdam</p>
                 <div class="lowerFeed d-flex">
-                    <img class="testimonial" src="../assets/testimonial-avata-03.jpg" alt="">
+                    <img class="testimonial" src="../assets/testimonial-avata-01.jpg" alt="">
                     <div class="d-flex d-column mb20">
                         <div class="textBlue mb10">Flhorence Themes</div>
                         <span class="textGray fs12"> / Multimedia Admin</span>
@@ -68,25 +68,25 @@
                 <div class="card d-flex d-column a-c j-c">
                     <h2 class="textBlue bold mb20">Succescfully Trained</h2>
                     <h1 class="green bold mb20">1790</h1>
-                    <span class="textGray bold">enrolled courses</span>
+                    <span class="textGray bold">ENRROLLED COURSES</span>
+                </div>
+
+                <div class="card d-flex d-column a-c j-c">
+                    <h2 class="textBlue bold mb20">Proudly Recevied</h2>
+                    <h1 class="green bold mb20">19</h1>
+                    <span class="textGray bold">COUNTRYWIDE AWARDS</span>
+                </div>
+
+                <div class="card d-flex d-column a-c j-c">
+                    <h2 class="textBlue bold mb20">Firmly Established</h2>
+                    <h1 class="green bold mb20">24</h1>
+                    <span class="textGray bold">LOCAL BRANCHES</span>
                 </div>
 
                 <div class="card d-flex d-column a-c j-c">
                     <h2 class="textBlue bold mb20">Succescfully Trained</h2>
-                    <h1 class="green bold mb20">1790</h1>
-                    <span class="textGray bold">enrolled courses</span>
-                </div>
-
-                <div class="card d-flex d-column a-c j-c">
-                    <h2 class="textBlue bold mb20">Succescfully Trained</h2>
-                    <h1 class="green bold mb20">1790</h1>
-                    <span class="textGray bold">enrolled courses</span>
-                </div>
-
-                <div class="card d-flex d-column a-c j-c">
-                    <h2 class="textBlue bold mb20">Succescfully Trained</h2>
-                    <h1 class="green bold mb20">1790</h1>
-                    <span class="textGray bold">enrolled courses</span>
+                    <h1 class="green bold mb20">1009</h1>
+                    <span class="textGray bold">BLOG POSTS</span>
                 </div>
             </div>
         </div>
@@ -95,17 +95,17 @@
     <div class="mainBlogPart">
         <div class="mainContainer d-flex">
             <div class="cardBlogText cardBlog">
-                <h3 class="textGray mb10">Enjoyable Insigth</h3>
-                <h2 class="mb10">Most Viewed <span class="green">Best Blogs</span></h2>
+                <h4 class="textGray mb10">Enjoyable Insigth</h4>
+                <h3 class="mb10 ">Most Viewed <span class="green">Best Blogs</span></h3>
                 <ul class="textBlue">
-                    <li class="mb10"><i class="fa-solid fa-arrow-right fa-2xs"></i> become a better blogger</li>
-                    <li class="mb10"><i class="fa-solid fa-arrow-right fa-2xs"></i> Promote your online Bussines on
+                    <li class="mb10 sm"><i class="fa-solid fa-arrow-right fa-2xs"></i> become a better blogger</li>
+                    <li class="mb10 sm"><i class="fa-solid fa-arrow-right fa-2xs"></i> Promote your online Bussines on
                         Pinterest</li>
-                    <li class="mb10"><i class="fa-solid fa-arrow-right fa-2xs"></i> Promote your online Bussines on
+                    <li class="mb10 sm"><i class="fa-solid fa-arrow-right fa-2xs"></i> Promote your online Bussines on
                         Pinterest</li>
-                    <li class="mb10"><i class="fa-solid fa-arrow-right fa-2xs"></i> Promote your online Bussines on
+                    <li class="mb10 sm"><i class="fa-solid fa-arrow-right fa-2xs"></i> Promote your online Bussines on
                         Pinterest</li>
-                    <li class="mb10"><i class="fa-solid fa-arrow-right fa-2xs"></i> Promote your online Bussines on
+                    <li class="mb10 sm"><i class="fa-solid fa-arrow-right fa-2xs"></i> Promote your online Bussines on
                         Pinterest</li>
                 </ul>
             </div>
@@ -147,7 +147,8 @@
 
 .cardBlog.one {
     background-color: white;
-    margin: 0 30px;
+    margin: 0 40px;
+  
 
 }
 
@@ -196,7 +197,7 @@ li {
 .imgGetStartedOne {
     width: 80px;
     top: 136px;
-    left: 272px;
+    left: 250px;
 
 
 }

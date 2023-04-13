@@ -84,7 +84,7 @@ export default {
 }
 
 .buttonHeader {
-    width: 200px;
+    width: 300px;
     margin: 20px auto;
     padding: 10px;
     border-radius: 5px;
@@ -177,6 +177,7 @@ export default {
 .listTopHeader li {
     list-style: none;
     margin-right: 20px;
+    font-size: 12px;
 }
 
 .listTopHeader li i {
